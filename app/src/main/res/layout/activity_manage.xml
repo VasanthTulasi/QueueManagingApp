@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Manage"
+    android:background="#514363"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="  Queue Members  "
+        android:textColor="#ffffff"
+        android:layout_marginTop="4dp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:id="@+id/queueMemberListForReceptionist"
+        />
+
+    <ListView
+        android:layout_weight="9.2"
+        android:id="@+id/listOfMembers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "349482317341",
+    "firebase_url": "https://queuejoiningapp.firebaseio.com",
+    "project_id": "queuejoiningapp",
+    "storage_bucket": "queuejoiningapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349482317341:android:772a92b785b3ec20",
+        "android_client_info": {
+          "package_name": "com.join.queue.vasanth.queuejoiningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349482317341-nk6qbcfappkmke83und8v6b3erb2jqla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.join.queue.vasanth.queuejoiningapp",
+            "certificate_hash": "43736bc9fb1c6af889ed7e2cf9f7bb48cb370c3d"
+          }
+        },
+        {
+          "client_id": "349482317341-qn32g79d0182lt6139293q9rii255r8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjRNPfLS6dq7QYJQorCDaMBLpF8_p3dfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349482317341-qn32g79d0182lt6139293q9rii255r8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349482317341:android:715132014f1bfd11",
+        "android_client_info": {
+          "package_name": "com.manage.queue.vasanth.queuemanagingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349482317341-qbipt23qdks58g9j3ho8f94kul71bp10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manage.queue.vasanth.queuemanagingapp",
+            "certificate_hash": "43736bc9fb1c6af889ed7e2cf9f7bb48cb370c3d"
+          }
+        },
+        {
+          "client_id": "349482317341-qn32g79d0182lt6139293q9rii255r8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjRNPfLS6dq7QYJQorCDaMBLpF8_p3dfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349482317341-qn32g79d0182lt6139293q9rii255r8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
