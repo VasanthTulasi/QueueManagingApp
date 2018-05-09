@@ -71,7 +71,7 @@ public class Manage extends AppCompatActivity {
 
                 String removedKey = dataSnapshot.getKey();
                 String removedValue = dataSnapshot.getValue(String.class);
-
+//njk
 
                 int index = keysArrayList.indexOf(removedKey);
 //                CardClass cc  = membersArrayList.get(index);
