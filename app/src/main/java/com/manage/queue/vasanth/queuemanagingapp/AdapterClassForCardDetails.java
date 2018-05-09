@@ -21,6 +21,7 @@ public class AdapterClassForCardDetails extends ArrayAdapter<CardClass> {
     private Context mContext;
     private int mResource;
     private int lastPosition = -1;
+    public static int positionValue;
 
     private static class ViewHolder {
         TextView number;
@@ -91,9 +92,9 @@ public class AdapterClassForCardDetails extends ArrayAdapter<CardClass> {
         reject.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                remove(getItem(position));
-                DatabaseReference databaseReferenceForRemoval = FirebaseDatabase.getInstance().getReference().child("Queue Members");
-                databaseReferenceForRemoval.child(Manage.keysArrayList.get(position)).removeValue();
+//          remove(getItem(position));
+            DatabaseReference databaseReferenceForRemoval = FirebaseDatabase.getInstance().getReference().child(QueueCodeEntryActivity.queueCodeString);
+            databaseReferenceForRemoval.child(Manage.keysArrayList.get(position)).removeValue();
 
             }
         });
@@ -102,7 +103,7 @@ public class AdapterClassForCardDetails extends ArrayAdapter<CardClass> {
         // (position > lastPosition) ? R.anim.load_down_anim : R.anim.load_up_anim);
         // result.startAnimation(animation);
         // lastPosition = position;
-
+        positionValue = position;
         holder.number.setText(String.valueOf(position+1));
         holder.name.setText(name);
 
